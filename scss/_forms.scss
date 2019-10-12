@@ -1,0 +1,24 @@
+.form{
+    &-group{
+        margin: 1.2rem 0;
+    }
+    &-text{
+        display: block;
+        margin-top: 0.3rem;
+        color: #888;
+    }
+
+    input[type='text'],
+    input[type='email'],
+    input[type='password'],
+    input[type='date'],
+    textarea,
+    select{
+       display: block;
+       padding: 0.4rem;
+       width: 100%;
+       font-size: 1.2rem;
+       border: 1px solid #888; 
+    }
+
+}
